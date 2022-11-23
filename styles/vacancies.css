@@ -1,0 +1,119 @@
+.banner {
+	height: max-content;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	padding-top: 3%;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	box-sizing: border-box;
+}
+.container > p {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000;
+	margin: 20px 0 0 5%;
+}
+.vacancies {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10%;
+	padding: 20px 0 60px 5%;
+	box-sizing: border-box;
+}
+.vacancy-card {
+	width: 25%;
+	height: max-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	box-sizing: border-box;
+	border-radius: 2%;
+	padding: 20px 30px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.vacancy-card > h1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #000;
+}
+
+.vacancy-card > ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	row-gap: 10px;
+	/* list-style: none; */
+	padding: 0 20px;
+}
+.vacancy-card > ul > li {
+	width: 100%;
+	margin: 0;
+}
+.vacancy-card > button {
+	height: 40px;
+	border: none;
+	border-radius: 6px;
+	background-color: #000;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 7px 25px;
+	cursor: pointer;
+	background-color: rgb(8, 162, 8);
+}
+.vacancy-card > button:hover {
+	background-color: rgb(0, 128, 0);
+}
+@media screen and (max-width: 929px) {
+	.container {
+		flex-direction: column;
+		height: max-content;
+		justify-content: flex-start;
+		padding-top: 3%;
+	}
+	.container > p {
+		margin: 0 7%;
+	}
+	.vacancies {
+		width: 90%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin: 0 4%;
+	}
+	.vacancy-card {
+		margin: 30px 0;
+		width: 100%;
+		height: max-content;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		box-sizing: border-box;
+		border-radius: 2%;
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	}
+}

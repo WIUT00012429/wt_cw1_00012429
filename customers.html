@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="og:title" content="Restaurant" />
+		<meta
+			name="og:description"
+			content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, voluptatum? Pariatur, aliquid."
+		/>
+		<meta name="keywords" content="Restaurant, website" />
+		<meta name="author" content="Restaurant Manager" />
+		<title>Restaurant</title>
+		<link rel="stylesheet" href="./styles/global.css" />
+		<link rel="stylesheet" href="./styles/customers.css" />
+	</head>
+	<body>
+		<!-- navbar with pure css  -->
+		<nav class="navbar">
+			<div class="navbar-container">
+				<div class="navbar-logo">
+					<a href="/index.html" class="logo-child">Food City</a>
+				</div>
+				<ul class="navbar-menu-list list">
+					<li class="navbar-menu-item">
+						<a href="/index.html" class="navbar-menu-link">Home</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="/about.html" class="navbar-menu-link">About</a>
+					</li>
+
+					<li class="navbar__menu-item">
+						<a href="/menu.html" class="navbar-menu-link">Menu</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="/contacts.html" class="navbar-menu-link">Contacts</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="/vacancies.html" class="navbar-menu-link">Vacancies</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="/customers.html" class="navbar-menu-link"
+							>Beloved customers</a
+						>
+					</li>
+				</ul>
+				<div>
+					<button type="button" class="menu-open" id="toggleMenu">Menu</button>
+				</div>
+			</div>
+		</nav>
+
+		<!-- banner -->
+		<div class="banner">
+			<div class="banner-container">
+				<div class="banner-content" id="banner-content">
+					<h1 class="banner-title">Our loyal customers</h1>
+				</div>
+			</div>
+			<img src="" alt="" />
+		</div>
+
+		<div class="card-body" id="card-body"></div>
+	</body>
+
+	<script type="module" src="./js/main.js"></script>
+	<script type="module" src="./js/customer.js"></script>
+</html>

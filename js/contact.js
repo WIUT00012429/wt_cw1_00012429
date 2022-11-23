@@ -1,13 +1,17 @@
 const form = document.querySelector('#form');
+const name = document.querySelector("#name")
+const email = document.querySelector("#email")
+const message = document.querySelector("#message")
+
 form.addEventListener("submit", function (e) {
     e.preventDefault();
-    const name = $("#name").value;
-    const email = $("#email").value;
-    const message = $("#message").value;
+    const nameVal = name.value;
+    const emailVal = email.value;
+    const messageVal = message.value;
     alert(`
-    Name: ${name}
-    Email: ${email}
-    Message: ${message}
+    Name: ${nameVal}
+    Email: ${emailVal}
+    Message: ${messageVal}
     `);
     form.reset();
 })

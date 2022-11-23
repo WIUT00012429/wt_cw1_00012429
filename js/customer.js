@@ -1,19 +1,19 @@
 const bannerContent = document.querySelector('#banner-content');
 const data = [
     {
-        name: "Beloved Customer",
+        name: "John Doe",
         img: "./images/customer1.jpg",
     },
     {
-        name: "Beloved Customer",
+        name: "Lara Craft",
         img: "./images/customer2.jpg",
     },
     {
-        name: "Beloved Customer",
+        name: "Doe John",
         img: "./images/customer1.jpg",
     },
     {
-        name: "Beloved Customer",
+        name: "Emilia",
         img: "./images/customer2.jpg",
     }
 ]
